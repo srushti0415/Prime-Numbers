@@ -1,11 +1,15 @@
 let b = 2;
 function primenumbers(a) {
-    while (a > b) {
-        if (a / 1 == a && a / a == 1) {
-            console.log("its a prime no")
+    let isPrimeNumber = 0;
+    while (b < a) {
+        if (a % b == 0) {
+            console.log("its not a prime no.")
+            isPrimeNumber = 1
         }
-               b++;
-               a/b;
+        b++;
     }
+    if (isPrimeNumber == 0 )
+    console.log("its a prime no")
 }
-primenumbers(5);
+primenumbers(6);
+
