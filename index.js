@@ -11,5 +11,5 @@ function primenumbers(a) {
     if (isPrimeNumber == 0 )
     console.log("its a prime no")
 }
-primenumbers(6);
+primenumbers(448);
 
