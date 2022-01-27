@@ -1,6 +1,6 @@
 let b = 2;
 function primenumbers(a) {
-    let isPrimeNumber = 0;
+    let ki PrimeNumber = 0;
     while (b < a) {
         if (a % b == 0) {
             console.log("its not a prime no.")
